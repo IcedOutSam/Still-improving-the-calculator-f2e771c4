@@ -22,12 +22,8 @@
         <input type="Submit" value="%" name="knop">
         </form>
 
-    </div>
-  </body>
-</html>
-
-<?php
-
+        <?php
+// Casting verandert als het ware de value van de variable in dit geval om het vervolgens je eigen gekozen value te geven
 
 if (isset($_POST["knop"])) {
     $nummer1 = (int) $_POST["number1"];
@@ -60,3 +56,6 @@ if (isset($_POST["knop"])) {
     }
 }
 ?>
+    </div>
+  </body>
+</html>
